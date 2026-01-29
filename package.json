@@ -1,0 +1,23 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "this is namaste react by shivam ",
+  "homepage": "https://github.com/cvm1912/namaste-react#readme",
+  "bugs": {
+    "url": "https://github.com/cvm1912/namaste-react/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cvm1912/namaste-react.git"
+  },
+  "license": "ISC",
+  "author": "shivam singh",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.3"
+  }
+}
