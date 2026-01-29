@@ -13,11 +13,15 @@
   "license": "ISC",
   "author": "shivam singh",
   "type": "commonjs",
-  "main": "app.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build":"npx parcel index.html"
   },
   "devDependencies": {
     "parcel": "^2.16.3"
+  },
+  "dependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
   }
 }
