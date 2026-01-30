@@ -10,12 +10,14 @@
     "type": "git",
     "url": "git+https://github.com/cvm1912/namaste-react.git"
   },
+
   "license": "ISC",
   "author": "shivam singh",
   "type": "commonjs",
   "scripts": {
     "test": "jest",
-    "build": "npx parcel index.html"
+    "build": "parcel build index.html",
+    "start": "parcel index.html"
   },
   "devDependencies": {
     "parcel": "^2.16.3"
